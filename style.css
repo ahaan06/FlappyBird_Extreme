@@ -1,0 +1,5 @@
+body { margin-top: 5; margin-bottom: 5; margin-left: 5; overflow: hidden; background-color: #f0f0f0; }
+canvas {background-color: aqua; background-size: cover;}
+.centered { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;background: rgba(255, 255, 255, 0.7);padding: 20px;border-radius: 10px;display: none;}
+.game-over {position: absolute;top: 50%;left: 50%;text-size-adjust: 100;transform: translate(-50%, -50%);text-align: center;display: block;}
+#restartButton { display: block; margin-top:20px; position: absolute;bottom: 270px;left: 50%;transform: translateX(-50%);background-color: #4CAF50;color: white;padding: 10px 20px;border: none;border-radius: 5px;cursor: pointer;font-size: 18px;}
